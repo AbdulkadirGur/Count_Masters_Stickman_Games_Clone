@@ -13,8 +13,10 @@ public class Tower : MonoBehaviour
     [Range(0f, 10f)][SerializeField] private float yOffset;
     
     [SerializeField] private List<int> towerCountList = new List<int>();
-    [SerializeField] private List<GameObject> towerList = new List<GameObject>();
+    [SerializeField] public List<GameObject> towerList = new List<GameObject>();    
     public static Tower TowerInstance;
+    public string son;
+  
 
     private void Start()
     {
@@ -68,8 +70,9 @@ public class Tower : MonoBehaviour
                 }
                 
                 var tower = new GameObject("Tower" + towerId);
-               
-                tower.transform.parent = transform;
+            
+
+            tower.transform.parent = transform;
                 tower.transform.localPosition = new Vector3(0, 0, 0);
                 
                 towerList.Add(tower);
@@ -97,5 +100,7 @@ public class Tower : MonoBehaviour
                 towerId++;
                 yield return new WaitForSecondsRealtime(0.2f);
             }
+       
     }
+    
 }

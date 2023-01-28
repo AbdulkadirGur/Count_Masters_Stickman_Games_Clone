@@ -10,9 +10,10 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     public Transform player;
-    private int stickmanSayisi,DusmanStickmanSayisi;
+    public int stickmanSayisi,DusmanStickmanSayisi;
     [SerializeField] private TextMeshPro txtSayisi;
     [SerializeField] private GameObject stickMan;
+   
     //****************************************************
 
    [Range(0f,1f)] [SerializeField] private float MesafeFaktoru, Radius;
@@ -31,6 +32,9 @@ public class PlayerManager : MonoBehaviour
    public ParticleSystem kan;
    public GameObject SecondCam;
    public bool BitisCizgisi,kameraHareketEttir;
+
+
+    
     void Start()
     {
         player = transform;
@@ -93,8 +97,10 @@ public class PlayerManager : MonoBehaviour
             {
                 enemy.transform.GetChild(1).GetComponent<enemyManager>().SaldiriDursun();
                 gameObject.SetActive(false);
-             
+                
+
             }
+            
         }
         else
         {
@@ -106,9 +112,11 @@ public class PlayerManager : MonoBehaviour
         if (transform.childCount == 1 && BitisCizgisi)
         {
             oyunDurumu = false;
+            
         }
         
-       
+
+
         if (oyunDurumu)
         {
           yol.Translate(yol.forward * Time.deltaTime * yolHizi);
@@ -252,6 +260,7 @@ public class PlayerManager : MonoBehaviour
             StartCoroutine(UpdateTheEnemyAndPlayerStickMansNumbers());
 
         }
+        
 
         if (other.CompareTag("Finish"))
         {
@@ -277,7 +286,8 @@ public class PlayerManager : MonoBehaviour
 
             enemy.transform.GetChild(1).GetComponent<enemyManager>().TxtSayisi.text = DusmanStickmanSayisi.ToString();
             txtSayisi.text = stickmanSayisi.ToString();
-            
+           
+
             yield return null;
         }
 
@@ -287,8 +297,9 @@ public class PlayerManager : MonoBehaviour
             {
                 transform.GetChild(i).rotation = Quaternion.identity;
             }
-            
            
+
+
         }
     }
 }

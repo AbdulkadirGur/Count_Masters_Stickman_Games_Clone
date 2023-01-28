@@ -1,39 +1,12 @@
 fileFormatVersion: 2
-guid: 8912eae650240904a910b00ea34eab46
+guid: 598dbebd0fecd1648ba12548d2811f86
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -7151958888795693489
-    second: GUI_0
-  - first:
-      213: 8105364098890919055
-    second: GUI_1
-  - first:
-      213: -5376358965234703051
-    second: GUI_2
-  - first:
-      213: 5740453210667488706
-    second: GUI_3
-  - first:
-      213: 2802904198054408972
-    second: GUI_4
-  - first:
-      213: -9168193397101357998
-    second: GUI_5
-  - first:
-      213: -3238813901825184631
-    second: GUI_6
-  - first:
-      213: 319298653339161350
-    second: GUI_7
-  - first:
-      213: 6667725422741070258
-    second: GUI_8
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -65,7 +38,7 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 0
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -78,7 +51,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
@@ -90,7 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -117,18 +90,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: 47
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 1
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -140,6 +101,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -149,7 +122,7 @@ TextureImporter:
         serializedVersion: 2
         x: 206
         y: 941
-        width: 781
+        width: 784
         height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -158,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4e922988432fbc90800000000000000
-      internalID: -7151958888795693489
+      spriteID: ede0bebb77273e441a81703ffe6749aa
+      internalID: 1553475395
       vertices: []
       indices: 
       edges: []
@@ -168,7 +141,7 @@ TextureImporter:
       name: GUI_1
       rect:
         serializedVersion: 2
-        x: 56
+        x: 57
         y: 694
         width: 209
         height: 232
@@ -179,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8ce89134b90c7070800000000000000
-      internalID: 8105364098890919055
+      spriteID: f1a84b24be2ed7749a429a429a987e8a
+      internalID: -790010284
       vertices: []
       indices: 
       edges: []
@@ -200,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 535e23c91065365b0800000000000000
-      internalID: -5376358965234703051
+      spriteID: 412754782e0fff449bb16a7b53d37d77
+      internalID: 108171422
       vertices: []
       indices: 
       edges: []
@@ -210,10 +183,10 @@ TextureImporter:
       name: GUI_3
       rect:
         serializedVersion: 2
-        x: 331
+        x: 330
         y: 688
-        width: 182
-        height: 139
+        width: 183
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c51697e7cf2aaf40800000000000000
-      internalID: 5740453210667488706
+      spriteID: df2ef72eea0623648a27e540fb7a6030
+      internalID: 1988930680
       vertices: []
       indices: 
       edges: []
@@ -234,7 +207,7 @@ TextureImporter:
         x: 579
         y: 729
         width: 398
-        height: 163
+        height: 165
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c03fb78848ae5e620800000000000000
-      internalID: 2802904198054408972
+      spriteID: f358a2fbcfdd5524f88e93c29c8f7934
+      internalID: 586591061
       vertices: []
       indices: 
       edges: []
@@ -254,7 +227,7 @@ TextureImporter:
         serializedVersion: 2
         x: 49
         y: 450
-        width: 432
+        width: 433
         height: 187
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -263,8 +236,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25411b53ea804c080800000000000000
-      internalID: -9168193397101357998
+      spriteID: 7a4923a6a6e116b46a523c6c1c70f751
+      internalID: -698822530
       vertices: []
       indices: 
       edges: []
@@ -273,10 +246,10 @@ TextureImporter:
       name: GUI_6
       rect:
         serializedVersion: 2
-        x: 545
+        x: 544
         y: 451
-        width: 432
-        height: 189
+        width: 433
+        height: 187
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,8 +257,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98cec109aeb6d03d0800000000000000
-      internalID: -3238813901825184631
+      spriteID: 3be4a7261492b5e45876cd7d6e7d6793
+      internalID: 1919373561
       vertices: []
       indices: 
       edges: []
@@ -295,9 +268,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 50
-        width: 314
-        height: 304
+        y: 48
+        width: 318
+        height: 306
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,8 +278,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6039a89fe606e6400800000000000000
-      internalID: 319298653339161350
+      spriteID: 9d0f31ac2ef695845a314fabb2819d84
+      internalID: -1277897811
       vertices: []
       indices: 
       edges: []
@@ -326,8 +299,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b1a252e1f4888c50800000000000000
-      internalID: 6667725422741070258
+      spriteID: 7e112c547183b224ea72b3a0b5436b98
+      internalID: -90635727
       vertices: []
       indices: 
       edges: []
@@ -335,7 +308,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 7ce3805d600df9d42804b8cb742d1a2f
+    spriteID: 240da1cf56cf31f4785ffa995fe92587
     internalID: 0
     vertices: []
     indices: 
@@ -343,17 +316,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GUI_4: 2802904198054408972
-      GUI_5: -9168193397101357998
-      GUI_0: -7151958888795693489
-      GUI_3: 5740453210667488706
-      GUI_2: -5376358965234703051
-      GUI_1: 8105364098890919055
-      GUI_6: -3238813901825184631
-      GUI_7: 319298653339161350
-      GUI_8: 6667725422741070258
+      GUI_4: 586591061
+      GUI_5: -698822530
+      GUI_0: 1553475395
+      GUI_3: 1988930680
+      GUI_2: 108171422
+      GUI_1: -790010284
+      GUI_6: 1919373561
+      GUI_7: -1277897811
+      GUI_8: -90635727
   spritePackingTag: 
-  pSDRemoveMatte: 1
+  pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
